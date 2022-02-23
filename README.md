@@ -19,3 +19,7 @@ samples     -- Samples & Examples
 test        -- Test Suite
 README.md   -- This file
 ```
+
+## License
+
+GPLv3
