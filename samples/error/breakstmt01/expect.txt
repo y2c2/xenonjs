@@ -1,0 +1,1 @@
+a.js:1:1 :error: break statement not within loop or switch

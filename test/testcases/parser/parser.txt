@@ -1,0 +1,150 @@
+
+{"type":"Program","body":[],"sourceType":"script"}
+;
+{"type":"Program","body":[{"type":"EmptyStatement"}],"sourceType":"script"}
+;;
+{"type":"Program","body":[{"type":"EmptyStatement"},{"type":"EmptyStatement"}],"sourceType":"script"}
+;;;
+{"type":"Program","body":[{"type":"EmptyStatement"},{"type":"EmptyStatement"},{"type":"EmptyStatement"}],"sourceType":"script"}
+{}
+{"type":"Program","body":[{"type":"BlockStatement","body":[]}],"sourceType":"script"}
+{}{}
+{"type":"Program","body":[{"type":"BlockStatement","body":[]},{"type":"BlockStatement","body":[]}],"sourceType":"script"}
+{{}}
+{"type":"Program","body":[{"type":"BlockStatement","body":[{"type":"BlockStatement","body":[]}]}],"sourceType":"script"}
+{{{}}}
+{"type":"Program","body":[{"type":"BlockStatement","body":[{"type":"BlockStatement","body":[{"type":"BlockStatement","body":[]}]}]}],"sourceType":"script"}
+{{}{}}
+{"type":"Program","body":[{"type":"BlockStatement","body":[{"type":"BlockStatement","body":[]},{"type":"BlockStatement","body":[]}]}],"sourceType":"script"}
+1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}}],"sourceType":"script"}
+0
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":0,"raw":"0"}}],"sourceType":"script"}
+123
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":123,"raw":"123"}}],"sourceType":"script"}
+.1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":0.1,"raw":".1"}}],"sourceType":"script"}
+-1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UnaryExpression","operator":"-","argument":{"type":"Literal","value":1,"raw":"1"}}}],"sourceType":"script"}
++1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UnaryExpression","operator":"+","argument":{"type":"Literal","value":1,"raw":"1"}}}],"sourceType":"script"}
+~1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UnaryExpression","operator":"~","argument":{"type":"Literal","value":1,"raw":"1"}}}],"sourceType":"script"}
+!1
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UnaryExpression","operator":"!","argument":{"type":"Literal","value":1,"raw":"1"}}}],"sourceType":"script"}
+null
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":null,"raw":"null"}}],"sourceType":"script"}
+false
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":false,"raw":"false"}}],"sourceType":"script"}
+true
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":true,"raw":"true"}}],"sourceType":"script"}
+""
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":"","raw":"\"\""}}],"sourceType":"script"}
+''
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":"","raw":"''"}}],"sourceType":"script"}
+"abc"
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":"abc","raw":"\"abc\""}}],"sourceType":"script"}
+'abc'
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Literal","value":"abc","raw":"'abc'"}}],"sourceType":"script"}
+a
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Identifier","name":"a"}}],"sourceType":"script"}
+$
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Identifier","name":"$"}}],"sourceType":"script"}
+_
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"Identifier","name":"_"}}],"sourceType":"script"}
+++a
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UpdateExpression","operator":"++","argument":{"type":"Identifier","name":"a"},"prefix":true}}],"sourceType":"script"}
+--a
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UpdateExpression","operator":"--","argument":{"type":"Identifier","name":"a"},"prefix":true}}],"sourceType":"script"}
+a++
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UpdateExpression","operator":"++","argument":{"type":"Identifier","name":"a"},"prefix":false}}],"sourceType":"script"}
+a--
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"UpdateExpression","operator":"--","argument":{"type":"Identifier","name":"a"},"prefix":false}}],"sourceType":"script"}
+1+2
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"+","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+1-2
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"-","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+1*2
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"*","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+1/2
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"/","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+1%2
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"%","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+1+2+3
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"+","left":{"type":"BinaryExpression","operator":"+","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}},"right":{"type":"Literal","value":3,"raw":"3"}}}],"sourceType":"script"}
+1+2-3
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"-","left":{"type":"BinaryExpression","operator":"+","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}},"right":{"type":"Literal","value":3,"raw":"3"}}}],"sourceType":"script"}
+1*2/3
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"/","left":{"type":"BinaryExpression","operator":"*","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}},"right":{"type":"Literal","value":3,"raw":"3"}}}],"sourceType":"script"}
+1*2+3
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"+","left":{"type":"BinaryExpression","operator":"*","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}},"right":{"type":"Literal","value":3,"raw":"3"}}}],"sourceType":"script"}
+1+2*3-4
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"-","left":{"type":"BinaryExpression","operator":"+","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"BinaryExpression","operator":"*","left":{"type":"Literal","value":2,"raw":"2"},"right":{"type":"Literal","value":3,"raw":"3"}}},"right":{"type":"Literal","value":4,"raw":"4"}}}],"sourceType":"script"}
+1*2+3/4
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"BinaryExpression","operator":"+","left":{"type":"BinaryExpression","operator":"*","left":{"type":"Literal","value":1,"raw":"1"},"right":{"type":"Literal","value":2,"raw":"2"}},"right":{"type":"BinaryExpression","operator":"/","left":{"type":"Literal","value":3,"raw":"3"},"right":{"type":"Literal","value":4,"raw":"4"}}}}],"sourceType":"script"}
+a||b
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"Identifier","name":"a"},"right":{"type":"Identifier","name":"b"}}}],"sourceType":"script"}
+a&&b
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"&&","left":{"type":"Identifier","name":"a"},"right":{"type":"Identifier","name":"b"}}}],"sourceType":"script"}
+a&&b||c
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"LogicalExpression","operator":"&&","left":{"type":"Identifier","name":"a"},"right":{"type":"Identifier","name":"b"}},"right":{"type":"Identifier","name":"c"}}}],"sourceType":"script"}
+a||b&&c
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"Identifier","name":"a"},"right":{"type":"LogicalExpression","operator":"&&","left":{"type":"Identifier","name":"b"},"right":{"type":"Identifier","name":"c"}}}}],"sourceType":"script"}
+!a||b
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"UnaryExpression","operator":"!","argument":{"type":"Identifier","name":"a"}},"right":{"type":"Identifier","name":"b"}}}],"sourceType":"script"}
+a||!b
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"Identifier","name":"a"},"right":{"type":"UnaryExpression","operator":"!","argument":{"type":"Identifier","name":"b"}}}}],"sourceType":"script"}
+!a||!b
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"LogicalExpression","operator":"||","left":{"type":"UnaryExpression","operator":"!","argument":{"type":"Identifier","name":"a"}},"right":{"type":"UnaryExpression","operator":"!","argument":{"type":"Identifier","name":"b"}}}}],"sourceType":"script"}
+a = 123;
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"Identifier","name":"a"},"right":{"type":"Literal","value":123,"raw":"123"}}}],"sourceType":"script"}
+a = b = 123;
+{"type":"Program","body":[{"type":"ExpressionStatement","expression":{"type":"AssignmentExpression","operator":"=","left":{"type":"Identifier","name":"a"},"right":{"type":"AssignmentExpression","operator":"=","left":{"type":"Identifier","name":"b"},"right":{"type":"Literal","value":123,"raw":"123"}}}}],"sourceType":"script"}
+var a;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":null}]}],"sourceType":"script"}
+var a,b;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":null},{"type":"VariableDeclarator","id":{"type":"Identifier","name":"b"},"init":null}]}],"sourceType":"script"}
+var a,b,c;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":null},{"type":"VariableDeclarator","id":{"type":"Identifier","name":"b"},"init":null},{"type":"VariableDeclarator","id":{"type":"Identifier","name":"c"},"init":null}]}],"sourceType":"script"}
+var a = null;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":null,"raw":"null"}}]}],"sourceType":"script"}
+var a = false;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":false,"raw":"false"}}]}],"sourceType":"script"}
+var a = true;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":true,"raw":"true"}}]}],"sourceType":"script"}
+var a = 123;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":123,"raw":"123"}}]}],"sourceType":"script"}
+var a = 123, b = 456;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":123,"raw":"123"}},{"type":"VariableDeclarator","id":{"type":"Identifier","name":"b"},"init":{"type":"Literal","value":456,"raw":"456"}}]}],"sourceType":"script"}
+var a = 123, b = a;
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"a"},"init":{"type":"Literal","value":123,"raw":"123"}},{"type":"VariableDeclarator","id":{"type":"Identifier","name":"b"},"init":{"type":"Identifier","name":"a"}}]}],"sourceType":"script"}
+if (false) 1;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":null}],"sourceType":"script"}
+if (false) 1; else 2;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":2,"raw":"2"}}}],"sourceType":"script"}
+if (false) if (true) 1;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"IfStatement","test":{"type":"Literal","value":true,"raw":"true"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":null},"alternate":null}],"sourceType":"script"}
+if (false) if (true) 1; else 2;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"IfStatement","test":{"type":"Literal","value":true,"raw":"true"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":2,"raw":"2"}}},"alternate":null}],"sourceType":"script"}
+if (false) if (true) 1; else 2; else 3;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"IfStatement","test":{"type":"Literal","value":true,"raw":"true"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":2,"raw":"2"}}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":3,"raw":"3"}}}],"sourceType":"script"}
+if (false) if (true) 1; else 2; else if (false) 3; else 4;
+{"type":"Program","body":[{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"IfStatement","test":{"type":"Literal","value":true,"raw":"true"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":1,"raw":"1"}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":2,"raw":"2"}}},"alternate":{"type":"IfStatement","test":{"type":"Literal","value":false,"raw":"false"},"consequent":{"type":"ExpressionStatement","expression":{"type":"Literal","value":3,"raw":"3"}},"alternate":{"type":"ExpressionStatement","expression":{"type":"Literal","value":4,"raw":"4"}}}}],"sourceType":"script"}
+while (true);
+{"type":"Program","body":[{"type":"WhileStatement","test":{"type":"Literal","value":true,"raw":"true"},"body":{"type":"EmptyStatement"}}],"sourceType":"script"}
+while (true) while (false);
+{"type":"Program","body":[{"type":"WhileStatement","test":{"type":"Literal","value":true,"raw":"true"},"body":{"type":"WhileStatement","test":{"type":"Literal","value":false,"raw":"false"},"body":{"type":"EmptyStatement"}}}],"sourceType":"script"}
+while (true) {}
+{"type":"Program","body":[{"type":"WhileStatement","test":{"type":"Literal","value":true,"raw":"true"},"body":{"type":"BlockStatement","body":[]}}],"sourceType":"script"}
+do ; while (false);
+{"type":"Program","body":[{"type":"DoWhileStatement","body":{"type":"EmptyStatement","loc":{"start":{"line":1,"column":3},"end":{"line":1,"column":4}}},"test":{"type":"Literal","value":false,"raw":"false","loc":{"start":{"line":1,"column":12},"end":{"line":1,"column":17}}},"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":19}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":19}}}
+do {} while (false);
+{"type":"Program","body":[{"type":"DoWhileStatement","body":{"type":"BlockStatement","body":[],"loc":{"start":{"line":1,"column":3},"end":{"line":1,"column":5}}},"test":{"type":"Literal","value":false,"raw":"false","loc":{"start":{"line":1,"column":13},"end":{"line":1,"column":18}}},"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":20}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":20}}}
+var f = function(){};
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"f","loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":5}}},"init":{"type":"FunctionExpression","id":null,"params":[],"body":{"type":"BlockStatement","body":[],"loc":{"start":{"line":1,"column":18},"end":{"line":1,"column":20}}},"generator":false,"expression":false,"async":false,"loc":{"start":{"line":1,"column":8},"end":{"line":1,"column":20}}},"loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":20}}}],"kind":"var","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":21}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":21}}}
+var f = function(a){};
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"f","loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":5}}},"init":{"type":"FunctionExpression","id":null,"params":[{"type":"Identifier","name":"a","loc":{"start":{"line":1,"column":17},"end":{"line":1,"column":18}}}],"body":{"type":"BlockStatement","body":[],"loc":{"start":{"line":1,"column":19},"end":{"line":1,"column":21}}},"generator":false,"expression":false,"async":false,"loc":{"start":{"line":1,"column":8},"end":{"line":1,"column":21}}},"loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":21}}}],"kind":"var","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":22}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":22}}}
+var f = function(a,b){};
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"f","loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":5}}},"init":{"type":"FunctionExpression","id":null,"params":[{"type":"Identifier","name":"a","loc":{"start":{"line":1,"column":17},"end":{"line":1,"column":18}}},{"type":"Identifier","name":"b","loc":{"start":{"line":1,"column":19},"end":{"line":1,"column":20}}}],"body":{"type":"BlockStatement","body":[],"loc":{"start":{"line":1,"column":21},"end":{"line":1,"column":23}}},"generator":false,"expression":false,"async":false,"loc":{"start":{"line":1,"column":8},"end":{"line":1,"column":23}}},"loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":23}}}],"kind":"var","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":24}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":24}}}
+var f = function(a,b,c){};
+{"type":"Program","body":[{"type":"VariableDeclaration","declarations":[{"type":"VariableDeclarator","id":{"type":"Identifier","name":"f","loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":5}}},"init":{"type":"FunctionExpression","id":null,"params":[{"type":"Identifier","name":"a","loc":{"start":{"line":1,"column":17},"end":{"line":1,"column":18}}},{"type":"Identifier","name":"b","loc":{"start":{"line":1,"column":19},"end":{"line":1,"column":20}}},{"type":"Identifier","name":"c","loc":{"start":{"line":1,"column":21},"end":{"line":1,"column":22}}}],"body":{"type":"BlockStatement","body":[],"loc":{"start":{"line":1,"column":23},"end":{"line":1,"column":25}}},"generator":false,"expression":false,"async":false,"loc":{"start":{"line":1,"column":8},"end":{"line":1,"column":25}}},"loc":{"start":{"line":1,"column":4},"end":{"line":1,"column":25}}}],"kind":"var","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":26}}}],"sourceType":"script","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":26}}}

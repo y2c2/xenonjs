@@ -1,0 +1,7 @@
+.build
+.build_lib
+.test
+test
+test.exe
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc

@@ -1,0 +1,1 @@
+a.mjs:1:9: error: expected '}' or identifier at end of input

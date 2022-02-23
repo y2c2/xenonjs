@@ -1,0 +1,5 @@
+**/*.x
+**/*.s
+**/result.txt
+**/result.ast
+**/gmon.out

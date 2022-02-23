@@ -1,0 +1,1 @@
+a.js:1:1 :error: named function is not supported

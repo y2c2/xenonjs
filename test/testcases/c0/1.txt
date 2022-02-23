@@ -1,0 +1,68 @@
+
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Halt"}],"entry":0}],"toplevel":0}
+null
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Null","var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+false
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":false,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+true
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":true,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+0
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+1
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":1,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+123
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":123,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+.1
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0.1,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+.0
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+.01
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0.01,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+.001
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0.001,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+.3
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":0.3,"var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+'abc'
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"String","value":"abc","var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+"abc"
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"String","value":"abc","var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+var a;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1,2]},{"index":1,"type":"DeclVar","name":"a"},{"index":2,"type":"Jump","dest":3},{"index":3,"type":"Block","items":[4]},{"index":4,"type":"Jump","dest":5},{"index":5,"type":"Block","items":[6]},{"index":6,"type":"Halt"}],"entry":0}],"toplevel":0}
+var a,b;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1,2,3]},{"index":1,"type":"DeclVar","name":"a"},{"index":2,"type":"DeclVar","name":"b"},{"index":3,"type":"Jump","dest":4},{"index":4,"type":"Block","items":[5]},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Halt"}],"entry":0}],"toplevel":0}
+var a = null;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1,2]},{"index":1,"type":"DeclVar","name":"a"},{"index":2,"type":"Jump","dest":3},{"index":3,"type":"Block","items":[4]},{"index":4,"type":"Jump","dest":5},{"index":5,"type":"Block","items":[6,7,8,9]},{"index":6,"type":"Alloca","var":0},{"index":7,"type":"Null","var":0},{"index":8,"type":"Store","name":"a","var":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+var a = 123;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1,2]},{"index":1,"type":"DeclVar","name":"a"},{"index":2,"type":"Jump","dest":3},{"index":3,"type":"Block","items":[4]},{"index":4,"type":"Jump","dest":5},{"index":5,"type":"Block","items":[6,7,8,9]},{"index":6,"type":"Alloca","var":0},{"index":7,"type":"Number","value":123,"var":0},{"index":8,"type":"Store","name":"a","var":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+a;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Load","name":"a","var":0},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+a;b;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Load","name":"a","var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"Load","name":"b","var":1},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+a;b;c;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Load","name":"a","var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"Load","name":"b","var":1},{"index":9,"type":"Jump","dest":10},{"index":10,"type":"Block","items":[11,12,13]},{"index":11,"type":"Alloca","var":2},{"index":12,"type":"Load","name":"c","var":2},{"index":13,"type":"Halt"}],"entry":0}],"toplevel":0}
+{}
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3]},{"index":3,"type":"Halt"}],"entry":0}],"toplevel":0}
+{}{}
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3]},{"index":3,"type":"Jump","dest":4},{"index":4,"type":"Block","items":[5]},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+{{}}
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3]},{"index":3,"type":"Jump","dest":4},{"index":4,"type":"Block","items":[5]},{"index":5,"type":"Halt"}],"entry":0}],"toplevel":0}
+{{{}}}
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3]},{"index":3,"type":"Jump","dest":4},{"index":4,"type":"Block","items":[5]},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Halt"}],"entry":0}],"toplevel":0}
++2
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":2,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"UnaryOp","op":"+","dst":1,"src":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+-2
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":2,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"UnaryOp","op":"-","dst":1,"src":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+~2
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":2,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"UnaryOp","op":"~","dst":1,"src":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+!2
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":2,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"UnaryOp","op":"!","dst":1,"src":0},{"index":9,"type":"Halt"}],"entry":0}],"toplevel":0}
+123+456
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Number","value":123,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7,8,9]},{"index":7,"type":"Alloca","var":1},{"index":8,"type":"Number","value":456,"var":1},{"index":9,"type":"Jump","dest":10},{"index":10,"type":"Block","items":[11,12,13]},{"index":11,"type":"Alloca","var":2},{"index":12,"type":"BinaryOp","op":"+","dst":2,"src1":0,"src2":1},{"index":13,"type":"Halt"}],"entry":0}],"toplevel":0}
+if (true) 1;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":true,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Branch","cond":0,"consequent":10,"alternate":8},{"index":8,"type":"Block","items":[9]},{"index":9,"type":"Halt"},{"index":10,"type":"Block","items":[11,12,13]},{"index":11,"type":"Alloca","var":1},{"index":12,"type":"Number","value":1,"var":1},{"index":13,"type":"Jump","dest":8}],"entry":0}],"toplevel":0}
+if (true) 1; else 2;
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":true,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Branch","cond":0,"consequent":14,"alternate":8},{"index":8,"type":"Block","items":[9,10,11]},{"index":9,"type":"Alloca","var":2},{"index":10,"type":"Number","value":2,"var":2},{"index":11,"type":"Jump","dest":12},{"index":12,"type":"Block","items":[13]},{"index":13,"type":"Halt"},{"index":14,"type":"Block","items":[15,16,17]},{"index":15,"type":"Alloca","var":1},{"index":16,"type":"Number","value":1,"var":1},{"index":17,"type":"Jump","dest":12}],"entry":0}],"toplevel":0}
+while (true);
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":true,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Branch","cond":0,"consequent":10,"alternate":8},{"index":8,"type":"Block","items":[9]},{"index":9,"type":"Halt"},{"index":10,"type":"Block","items":[11]},{"index":11,"type":"Jump","dest":12},{"index":12,"type":"Block","items":[13]},{"index":13,"type":"Jump","dest":2}],"entry":0}],"toplevel":0}
+while (true) while (false);
+{"functions":[{"id":0,"nodes":[{"index":0,"type":"Block","items":[1]},{"index":1,"type":"Jump","dest":2},{"index":2,"type":"Block","items":[3,4,5]},{"index":3,"type":"Alloca","var":0},{"index":4,"type":"Boolean","value":true,"var":0},{"index":5,"type":"Jump","dest":6},{"index":6,"type":"Block","items":[7]},{"index":7,"type":"Branch","cond":0,"consequent":10,"alternate":8},{"index":8,"type":"Block","items":[9]},{"index":9,"type":"Halt"},{"index":10,"type":"Block","items":[11,12,13]},{"index":11,"type":"Alloca","var":1},{"index":12,"type":"Boolean","value":false,"var":1},{"index":13,"type":"Jump","dest":14},{"index":14,"type":"Block","items":[15]},{"index":15,"type":"Branch","cond":1,"consequent":20,"alternate":16},{"index":16,"type":"Block","items":[17]},{"index":17,"type":"Jump","dest":18},{"index":18,"type":"Block","items":[19]},{"index":19,"type":"Jump","dest":2},{"index":20,"type":"Block","items":[21]},{"index":21,"type":"Jump","dest":22},{"index":22,"type":"Block","items":[23]},{"index":23,"type":"Jump","dest":10}],"entry":0}],"toplevel":0}

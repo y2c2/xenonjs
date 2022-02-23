@@ -1,0 +1,1 @@
+a.js:1:9: error: not a constructor

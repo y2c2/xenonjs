@@ -1,0 +1,2 @@
+var a=123+456;
+[{"type":"Keyword","value":"var"},{"type":"Identifier","value":"a"},{"type":"Punctuator","value":"="},{"type":"Numeric","value":"123"},{"type":"Punctuator","value":"+"},{"type":"Numeric","value":"456"},{"type":"Punctuator","value":";"}]

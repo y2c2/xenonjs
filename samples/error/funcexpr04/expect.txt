@@ -1,0 +1,1 @@
+a.js:1:13: error: expected ':' before '}'

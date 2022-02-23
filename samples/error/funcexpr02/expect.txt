@@ -1,0 +1,1 @@
+a.js:1:18: error: expected identifier or ')' before ';'

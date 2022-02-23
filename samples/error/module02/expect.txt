@@ -1,0 +1,1 @@
+a.mjs: error: cycle reference on module 'a' detected

@@ -1,0 +1,1 @@
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[],"source":{"type":"Literal","value":"abc","raw":"\"abc\"","loc":{"start":{"line":1,"column":7},"end":{"line":1,"column":12}}},"loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":13}}}],"sourceType":"module","loc":{"start":{"line":1,"column":0},"end":{"line":1,"column":13}}}

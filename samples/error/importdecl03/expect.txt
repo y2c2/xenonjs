@@ -1,0 +1,1 @@
+a.mjs:1:11: error: expected 'from' at end of input

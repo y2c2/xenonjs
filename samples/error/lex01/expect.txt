@@ -1,0 +1,1 @@
+a.js:1:2 :error: invalid or unexpected token

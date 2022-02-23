@@ -1,0 +1,1 @@
+a.js:1:6: error: expected ',' or ')' at end of input

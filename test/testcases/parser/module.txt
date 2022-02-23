@@ -1,0 +1,32 @@
+
+{"type":"Program","body":[],"sourceType":"module"}
+import "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import { member } from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member"},"imported":{"type":"Identifier","name":"member"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import { member1, member2 } from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member1"},"imported":{"type":"Identifier","name":"member1"}},{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member2"},"imported":{"type":"Identifier","name":"member2"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import { member1, member2, member3 } from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member1"},"imported":{"type":"Identifier","name":"member1"}},{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member2"},"imported":{"type":"Identifier","name":"member2"}},{"type":"ImportSpecifier","local":{"type":"Identifier","name":"member3"},"imported":{"type":"Identifier","name":"member3"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import { a as b } from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportSpecifier","local":{"type":"Identifier","name":"b"},"imported":{"type":"Identifier","name":"a"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import { a1 as b1, a2 as b2 } from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportSpecifier","local":{"type":"Identifier","name":"b1"},"imported":{"type":"Identifier","name":"a1"}},{"type":"ImportSpecifier","local":{"type":"Identifier","name":"b2"},"imported":{"type":"Identifier","name":"a2"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+import a from "module-name";
+{"type":"Program","body":[{"type":"ImportDeclaration","specifiers":[{"type":"ImportDefaultSpecifier","local":{"type":"Identifier","name":"a"}}],"source":{"type":"Literal","value":"module-name","raw":"\"module-name\""}}],"sourceType":"module"}
+export default name1;
+{"type":"Program","body":[{"type":"ExportDefaultDeclaration","declaration":{"type":"Identifier","name":"name1"}}],"sourceType":"module"}
+export {};
+{"type":"Program","body":[{"type":"ExportNamedDeclaration","declaration":null,"specifiers":[],"source":null}],"sourceType":"module"}
+export { a };
+{"type":"Program","body":[{"type":"ExportNamedDeclaration","declaration":null,"specifiers":[{"type":"ExportSpecifier","exported":{"type":"Identifier","name":"a"},"local":{"type":"Identifier","name":"a"}}],"source":null}],"sourceType":"module"}
+export { a, b };
+{"type":"Program","body":[{"type":"ExportNamedDeclaration","declaration":null,"specifiers":[{"type":"ExportSpecifier","exported":{"type":"Identifier","name":"a"},"local":{"type":"Identifier","name":"a"}},{"type":"ExportSpecifier","exported":{"type":"Identifier","name":"b"},"local":{"type":"Identifier","name":"b"}}],"source":null}],"sourceType":"module"}
+export { a as b };
+{"type":"Program","body":[{"type":"ExportNamedDeclaration","declaration":null,"specifiers":[{"type":"ExportSpecifier","exported":{"type":"Identifier","name":"b"},"local":{"type":"Identifier","name":"a"}}],"source":null}],"sourceType":"module"}
+export default a;
+{"type":"Program","body":[{"type":"ExportDefaultDeclaration","declaration":{"type":"Identifier","name":"a"}}],"sourceType":"module"}
+export default {};
+{"type":"Program","body":[{"type":"ExportDefaultDeclaration","declaration":{"type":"ObjectExpression","properties":[]}}],"sourceType":"module"}
+export default [];
+{"type":"Program","body":[{"type":"ExportDefaultDeclaration","declaration":{"type":"ArrayExpression","elements":[]}}],"sourceType":"module"}

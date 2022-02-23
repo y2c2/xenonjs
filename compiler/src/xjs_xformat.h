@@ -1,0 +1,109 @@
+/* XenonJS : Bytecode Format
+ * Copyright(c) 2017 y2c2 */
+
+#ifndef XJS_XFORMAT_H
+#define XJS_XFORMAT_H
+
+/* First 4 bytes in the entire file */
+#define XJS_BC_SIGNATURE (0x00736a78)
+#define XJS_BC_PLATFORM_FULL (1)
+#define XJS_BC_PLATFORM (XJS_BC_PLATFORM_FULL)
+#define XJS_BC_SDKVER (1)
+
+/* First 4 bytes in the beginning of each section */
+#define XJS_BC_SECTION_SIGNATURE_LEN 4
+#define XJS_BC_SECTION_SIGNATURE_DATA "data"
+#define XJS_BC_SECTION_SIGNATURE_TEXT "text"
+#define XJS_BC_SECTION_SIGNATURE_ATTR "attr"
+#define XJS_BC_SECTION_SIGNATURE_EXPT "expt"
+#define XJS_BC_SECTION_SIGNATURE_IMPT "impt"
+#define XJS_BC_SECTION_SIGNATURE_DBG0 "dbg0"
+#define XJS_BC_SECTION_SIGNATURE_DBI0 "dbi0"
+
+#define XJS_BC_SIZE_OPCODE 1
+#define XJS_BC_SIZE_REG 1 /* could have less than 256 registers */
+#define XJS_BC_SIZE_ADDR 4
+#define XJS_BC_SIZE_FUNCTIONID 4
+
+/* The maximum number of registers */
+#define XJS_BC_ARGC_MAX 16
+
+/* Strings encoded in UTF-8 format */
+#define XJS_BC_DATASEC_ITEM_TYPE_UTF8STR (1)
+#define XJS_BC_DATASEC_ITEM_TYPE_UTF8SYM (2)
+
+#define XJS_BC_ATTRSEC_ITEM_TYPE_TOPLEVEL (1)
+
+/* Number of registers */
+#define XJS_BC_REG_COUNT 256
+
+#define XJS_BC_OP_NOP 0x00
+#define XJS_BC_OP_HALT 0x01
+#define XJS_BC_OP_DEBUG 0x02
+#define XJS_BC_OP_INSPECT 0x03
+#define XJS_BC_OP_DYNLIB 0x04
+
+#define XJS_BC_OP_BR 0x10
+#define XJS_BC_OP_BRC 0x11
+#define XJS_BC_OP_MERGE 0x12
+#define XJS_BC_OP_RET 0x13
+#define XJS_BC_OP_CALL 0x14
+#define XJS_BC_OP_CALLT 0x15
+#define XJS_BC_OP_NEW 0x16
+#define XJS_BC_OP_THIS 0x17
+#define XJS_BC_OP_ALLOCREG 0x18
+#define XJS_BC_OP_ARG 0x19
+#define XJS_BC_OP_DECLVAR 0x1A
+#define XJS_BC_OP_LOAD 0x1B
+#define XJS_BC_OP_STORE 0x1C
+#define XJS_BC_OP_LOAD_UNDEFINED 0x1D
+#define XJS_BC_OP_LOAD_NULL 0x1E
+#define XJS_BC_OP_LOAD_FALSE 0x1F
+#define XJS_BC_OP_LOAD_TRUE 0x20
+#define XJS_BC_OP_LOAD_STRING 0x21
+#define XJS_BC_OP_LOAD_STRING_EMPTY 0x22
+#define XJS_BC_OP_LOAD_NUMBER_S8 0x23
+#define XJS_BC_OP_LOAD_NUMBER_S16 0x24
+#define XJS_BC_OP_LOAD_NUMBER_S32 0x25
+#define XJS_BC_OP_LOAD_NUMBER_U8 0x26
+#define XJS_BC_OP_LOAD_NUMBER_U16 0x27
+#define XJS_BC_OP_LOAD_NUMBER_U32 0x28
+#define XJS_BC_OP_LOAD_NUMBER_F32 0x29
+#define XJS_BC_OP_LOAD_NUMBER_F64 0x2A
+#define XJS_BC_OP_LOAD_FUNCTION 0x2B
+#define XJS_BC_OP_LOAD_ARROWFUNCTION 0x2C
+#define XJS_BC_OP_LOAD_OBJECT 0x2D
+#define XJS_BC_OP_LOAD_ARRAY 0x2E
+
+/* #define XJS_BC_OP_LOAD_NUMBER_0 0x20 */
+/* #define XJS_BC_OP_LOAD_NUMBER_1 0x21 */
+/* #define XJS_BC_OP_LOAD_NUMBER_2 0x22 */
+
+#define XJS_BC_OP_BINADD 0x30
+#define XJS_BC_OP_BINSUB 0x31
+#define XJS_BC_OP_BINMUL 0x32
+#define XJS_BC_OP_BINDIV 0x33
+#define XJS_BC_OP_BINMOD 0x34
+#define XJS_BC_OP_BINE2 0x35
+#define XJS_BC_OP_BINNE2 0x36
+#define XJS_BC_OP_BINE3 0x37
+#define XJS_BC_OP_BINNE3 0x38
+#define XJS_BC_OP_BINL 0x39
+#define XJS_BC_OP_BINLE 0x3A
+#define XJS_BC_OP_BING 0x3B
+#define XJS_BC_OP_BINGE 0x3C
+#define XJS_BC_OP_BINAND 0x3D
+#define XJS_BC_OP_BINOR 0x3E
+
+#define XJS_BC_OP_UNADD 0x40
+#define XJS_BC_OP_UNSUB 0x41
+#define XJS_BC_OP_UNNOT 0x42
+#define XJS_BC_OP_UNBNOT 0x43
+
+#define XJS_BC_OP_OBJSET 0x50
+#define XJS_BC_OP_OBJGET 0x51
+#define XJS_BC_OP_ARRPUSH 0x52
+
+
+#endif
+
